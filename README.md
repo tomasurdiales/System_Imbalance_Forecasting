@@ -8,8 +8,11 @@
 
 MSc Sustainable Energy Systems Engineering (SELECT, EIT InnoEnergy). TU Eindhoven.
 
+Work in collaboration with Elia Group.
 
 ---
+
+$2H \frac{dw}{dt} = P_m(t) - P_e(t) \quad$ ; $\quad H = \frac{\frac{1}{2}Jw^2}{S}$
 
 The principal research goal of this work is to describe
 the short-term forecastability of quarter-hourly grid system
