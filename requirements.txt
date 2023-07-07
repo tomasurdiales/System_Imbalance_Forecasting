@@ -1,0 +1,21 @@
+numpy
+pandas
+scikit-learn
+scipy
+statsmodels
+xgboost
+
+matplotlib
+seaborn
+
+typer
+
+# For pre-commit hooks and linting:
+pre-commit
+pyyaml
+pipreqs
+black
+autopep8
+pylint
+ipykernel
+tqdm
