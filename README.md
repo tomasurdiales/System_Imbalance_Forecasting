@@ -40,4 +40,6 @@ Notes:
 - This repository contains files for a Codespaces setup that may be ignored when running locally.
 - Original large data files are only available on local
 - Comitting from terminal shows proper logs for the pre-commit hooks
-- .zprofile <- export PYTHONPATH=$HOME/Desktop/Simplify
+- For notebooks to be able to import from 'src' do:
+
+  .zprofile <- export PYTHONPATH=(<project's root directory>)
