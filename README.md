@@ -36,10 +36,9 @@ Correspondence: tomas.urdiales@gmail.com
 Notes:
 
 - The "data" folder contains all data used for this study in .parquet files. It is already cleaned and datetime indexed, so it can be experimented with directly.
-- legacy_model contains the present forecasting system, after revisiting and refactoring code. Go to jose-thomas branch for original scripts.
-- This repository contains files for a Codespaces setup that may be ignored when running locally.
-- Original large data files are only available on local
-- Comitting from terminal shows proper logs for the pre-commit hooks
 - For notebooks to be able to import from 'src' do:
 
   .zprofile <- export PYTHONPATH=(<project's root directory>)
+- This repository contains files for a Codespaces setup that may be ignored when running locally.
+- Original large data files are only available on local
+- Comitting from terminal shows proper logs for the pre-commit hooks
