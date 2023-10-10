@@ -6,13 +6,14 @@
 [![code style - Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![types - mypy](https://img.shields.io/badge/types-Mypy-blue.svg)](https://github.com/python/mypy)
 
+### Main branch for thesis R&D
+
 **Author: Tomás Urdiales**
 
 MSc Sustainable Energy Systems Engineering (SELECT, EIT InnoEnergy). TU Eindhoven.
 
 Work in collaboration with Elia Group.
 
-### Main branch for thesis R&D
 ___
 
 $2H \frac{dw}{dt} = P_m(t) - P_e(t) \quad$ ; $\quad H = \frac{\frac{1}{2}Jw^2}{S}$
