@@ -16,7 +16,7 @@ alias ls='ls $LS_OPTIONS'
 export PS1='\e[1m[\e[1;32m\u@codespaces\e[0m|\e[1;34m\w\e[0m\e[1m] \e[0m'
 
 # Set Simplify project on python path:
-export PYTHONPATH=/workspaces/Simplify_MScThesis_Tomas
+export PYTHONPATH=/workspaces/System_Imbalance_Forecasting
 
 # To make path output more readable:
 function path(){
