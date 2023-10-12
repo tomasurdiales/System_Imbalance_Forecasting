@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Use custom .bashrc
-cp /workspaces/Simplify_MScThesis_Tomas/.devcontainer/.bashrc /root/
+cp /workspaces/System_Imbalance_Forecasting/.devcontainer/.bashrc /root/
 
 pre-commit install --install-hooks
 
