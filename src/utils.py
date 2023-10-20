@@ -67,6 +67,19 @@ def load_xb_historical_data() -> pd.DataFrame:
     return df
 
 
+def load_temp_historical_data() -> pd.DataFrame:
+    """
+    -> Loads temperature nominations data from pickle/parquet file.
+    """
+    # with open(get_root_dir() / "data" / "xb_historical_data.pkl", "rb") as f:
+    # df = pickle.load(f)
+    df = pd.read_parquet(
+        get_root_dir() / "data" / "temp_historical_data.parquet", engine="pyarrow"
+    )
+    df = df.asfreq(pd.infer_freq(df.index), method=None)
+    return df
+
+
 # ----------------------------------------------------------------------------------------------------------------------
 
 
